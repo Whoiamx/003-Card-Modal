@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --colorHeader: #203774;
+  --colorBlack: #000000;
+  --colorwhite: #ffffff;
+}
+
+body {
+  background-color: gray;
+}
+
+.card__header {
+  color: var(--colorwhite);
+  background-color: var(--colorHeader);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 125px;
+  padding: 35px;
+  border-radius: 9px 9px 0 0;
+}
+
+.card__header a {
+  color: var(--colorwhite);
+  text-decoration: none;
+}
+
+.container {
+  width: 928px;
+  height: 859px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__date {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card__body {
+  background-color: var(--colorwhite);
+  width: 928px;
+  height: 859px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 8px 8px;
+  gap: 60px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.one,
+.two {
+  display: flex;
+  background-color: var(--colorHeader);
+  border-radius: 10px;
+  color: var(--colorwhite);
+  width: 400px;
+  height: 200px;
+  padding: 30px;
+  gap: 60px;
+}
+
+.doctor__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.two a,
+.one a {
+  color: var(--colorBlack);
+  text-decoration: none;
+  height: 40px;
+  width: 130px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: var(--colorwhite);
+}
+
+.photos {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.card__doctor,
+.card__doctora {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  margin-top: 60px;
+  gap: 10px;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card__time {
+  display: flex;
+  gap: 22px;
+}
+
+.card__time a {
+  text-decoration: none;
+  margin-top: 30px;
+  color: black;
+}
